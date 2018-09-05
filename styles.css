@@ -128,7 +128,7 @@ form p{
 
 .displaydiv{
   background-color:grey;
-  width:150px;
+  width:200px;
   border-radius:3px;
   position:absolute;
   font-size:11px;
@@ -143,15 +143,18 @@ form p{
 div#container div#table div.reserved {
   background-color: coral;
   color: #EEE;
+
 }
-.Guestinfo {
+p {
   display: flex;
   justify-content: center;
-  position: fixed;
+  position: absolute;
   z-index: 10;
   border: 1px solid black;
   top: 0;
   bottom: 0;
-  height: 50px;
-  width: 50px
+  height: 65px;
+  width: 100px;
+  background-color:grey;
+  font-size: 75%;
 }
